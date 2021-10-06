@@ -1,9 +1,0 @@
-03:53:12.334 [main] ERROR MainClass - Exception:
-CustomException: java.lang.RuntimeException
-	at Class3.method(Class3.java:12)
-	at MainClass.main(MainClass.java:9)
-Caused by: java.lang.RuntimeException: null
-	at Class1.method(Class1.java:3)
-	at Class2.method(Class2.java:4)
-	at Class3.method(Class3.java:10)
-	... 1 common frames omitted
