@@ -1,0 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
+com.udemy.hoaxify.User-agent: *
+Disallow:

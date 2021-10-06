@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:h2:./devdb
+    username: sa
+
+  data:
+    web:
+      pageable:
+        default-page-size: 10
+        max-page-size: 100
+  servlet:
+    multipart:
+      max-file-size: 10MB
+val:
+  upload-path: picture-storage
